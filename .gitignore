@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+static
+build
+bamboo
+*.tar
+*.tar.gz
+reports
+npm-debug.log
+aws.json
+*.idea
+compiler.jar
+*.iml
