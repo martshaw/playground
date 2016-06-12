@@ -2,7 +2,8 @@
 node_modules
 static
 build
-bamboo
+gulp
+google-closure-compiler
 *.tar
 *.tar.gz
 reports
