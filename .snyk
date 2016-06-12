@@ -1,0 +1,12 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:qs:20140806':
+    - travis-ci > request > qs:
+        patched: '2016-06-12T20:46:53.626Z'
+  'npm:qs:20140806-1':
+    - travis-ci > request > qs:
+        patched: '2016-06-12T20:46:53.626Z'
+  'npm:request:20160119':
+    - travis-ci > request:
+        patched: '2016-06-12T20:46:53.626Z'

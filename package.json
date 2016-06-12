@@ -18,7 +18,8 @@
     "url": "https://github.com/martshaw/playground.git"
   },
   "dependencies": {
-    "gulp-bump": "^2.1.0"
+    "gulp-bump": "^2.1.0",
+    "snyk": "^1.14.3"
   },
   "devDependencies": {
     "babel-core": "^6.9.1",
@@ -55,9 +56,11 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "test": "mocha",
+    "test": "snyk test && mocha",
     "babel-node": "babel-node server.js --presets es2015,stage-2",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "config": {
     "ghooks": {
@@ -95,5 +98,6 @@
   },
   "cZConfig": {
     "path": "node_modes/cz-conventional-changelog"
-  }
+  },
+  "snyk": true
 }
