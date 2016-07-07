@@ -2,7 +2,6 @@
 node_modules
 static
 build
-gulp
 google-closure-compiler
 *.tar
 *.tar.gz
