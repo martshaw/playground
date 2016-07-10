@@ -21,7 +21,7 @@ module.exports = {
         }
     },
     gulp: {
-        src: {gp} + '/**/*.js'
+        src: `{gp} + /**/*.js`
     },
     lint: {
         src: [src + '/**/*.js',]
