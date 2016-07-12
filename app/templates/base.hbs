@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>{{title}}</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="/css/styles.css" />
-</head>
-<body>
-    {{> header }}
-    {{> nav }}
-    {{{ contents }}}
-    {{> footer }}
-    <script src="/js/scripts.min.js"></script>
-</body>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>{{title}}</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+        <div id="app">
+            {{> header }}
+            {{> nav  }}
+            {{{ contents }}}
+            {{> footer }}
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="/js/scripts.min.js"></script>
+    </body>
 </html>

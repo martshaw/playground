@@ -9,7 +9,7 @@ gulp.task('templates', ['json'], function () {
     const options = {
         batch: ['./app/templates/partials'],
     };
-    return gulp.src('./build/json/data.json')
+    return gulp.src('./app/json/data.json')
     .pipe(tap(function(file) {
         const data = file.contents.toString();
         return gulp.src('./app/templates/*.hbs')
@@ -23,5 +23,5 @@ gulp.task('json', function () {
     gulp.src('./app/assets/content/**.md')
     .pipe(gutil.buffer())
     .pipe(markdown('data.json'))
-    .pipe(gulp.dest('./build/json'));
+    .pipe(gulp.dest('./app/json/'));
 });
