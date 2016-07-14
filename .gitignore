@@ -11,3 +11,5 @@ aws.json
 *.idea
 compiler.jar
 *.iml
+/rollup.config.js
+/bundle.js

@@ -1,4 +1,5 @@
 import { cube } from './maths.js';
+import ImagesLoaded from 'imagesloaded';
 /* global $ */
 $(document).ready(function(){ alert(0); });
 
