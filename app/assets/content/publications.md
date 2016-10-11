@@ -1,4 +1,4 @@
-![the page](content/images/2014/Aug/acedemic_top.jpg)
+![the page](../images/acedemic_top.jpg)
 
 1.  [1997](#1997)
 2.  [1998](#1998)

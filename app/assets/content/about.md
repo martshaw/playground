@@ -1,4 +1,4 @@
-![castle](content/images/2014/Aug/castle.jpg)
+![castle](../images/castle.jpg)
 
 # CURRICULUM VITAE (short summary)
 

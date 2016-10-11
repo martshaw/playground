@@ -1,4 +1,4 @@
-![the page](content/images/2014/Aug/tower.jpg)
+![the page](../images/tower.jpg)
 
 # Professor Ken Shaw
 
