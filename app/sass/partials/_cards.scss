@@ -1,0 +1,7 @@
+/**
+ * Animating cards.
+ */
+.cards {
+    transition: transform 2250ms cubic-bezier(0.23,1,0.32,1);
+    transform: translate3d(0,200px,0);
+}

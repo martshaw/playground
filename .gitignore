@@ -12,3 +12,5 @@ aws.json
 compiler.jar
 *.iml
 yarn.lock
+/rollup.config.js
+/bundle.js
