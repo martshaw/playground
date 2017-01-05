@@ -1,4 +1,15 @@
-import moment from 'moment';
-const rightNow = moment().format('MMMM Do YYYY, h:mm:ss a');
-console.log(rightNow);
-// "October 23rd 2016, 9:30:24 pm"
+import { Provider } from 'react-redux';
+import ReactDOM from 'react-dom';
+import React from 'react';
+
+import HomePage from './js/containers/HomePage';
+import store from './js/stores';
+
+import './index.html';
+
+ReactDOM.render(
+  <Provider store={store}>
+    <HomePage />
+  </Provider>,
+  document.getElementById('app')
+);
